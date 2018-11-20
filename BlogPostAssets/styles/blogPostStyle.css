@@ -16,7 +16,7 @@
 	padding-left: 0.5%;
 	padding-top: 4px;
 	padding-bottom: 4px;
-	color: rgba(146,146,146,1.00);
+	color: rgba(60,60,60,1.00);
 }
 #mainwrapper header nav {
 	/*Nav bar containing links in header */
@@ -38,7 +38,7 @@ header nav a {
 }
 #content #mainContent h3 {
 	/*Captions ot Taglines */
-	font-family: source-sans-pro, sans-serif;
+	font-family: Lato, "sans-serif";
 	font-style: normal;
 	font-weight: 200;
 	color: rgba(146,146,146,1.00);
@@ -51,7 +51,7 @@ header nav a {
 #content #mainContent p {
 	/* All paragraphs under maincontent */
 	color: rgba(146,146,146,1.00);
-	font-family: source-sans-pro, sans-serif;
+	font-family: Lato, "sans-serif";
 	font-style: normal;
 	font-weight: 200;
 	text-align: justify;
