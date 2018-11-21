@@ -96,7 +96,7 @@
     &q=place_id:ChIJma_cPZiIWBMR7XpKowMDLtY&zoom=17" allowfullscreen>
 </iframe> -->
 	<div id="map"></div>
-	<div id="legend"><h2>ΒΟΓΙΑΣ ΙΩΑΝΝΗΣ</h2>Ασκληπιού 36, Λάρισα (1ος Όροφος)<br><br><a href="https://maps.google.com/maps?ll=39.63549,22.418266&z=16&t=m&daddr=%CE%92%CE%9F%CE%93%CE%99%CE%91%CE%A3%20%CE%99%CE%A9%CE%91%CE%9D%CE%9D%CE%97%CE%A3%20%CE%A9%CF%84%CE%BF%CF%81%CE%B9%CE%BD%CE%BF%CE%BB%CE%B1%CF%81%CF%85%CE%B3%CE%B3%CE%BF%CE%BB%CF%8C%CE%B3%CE%BF%CF%82%20%CE%9B%CE%AC%CF%81%CE%B9%CF%83%CE%B1%20%CE%91%CF%83%CE%BA%CE%BB%CE%B7%CF%80%CE%B9%CE%BF%CF%8D%2036%20%CE%9B%CE%AC%CF%81%CE%B9%CF%83%CE%B1%20412%2022@39.63549,22.418266"> Κλίκ για οδηγίες</a></div>
+	<div id="legend"><h2>ΒΟΓΙΑΣ ΙΩΑΝΝΗΣ</h2>Ασκληπιού 36, Λάρισα (1ος Όροφος)<br><br><h2><a href='https://www.google.com/maps?daddr=vogias+ent'> Κλίκ για οδηγίες</a></h2></div>
     <script>
 // Initialize and add the map
 function initMap() {
@@ -124,14 +124,13 @@ var styledMapType = new google.maps.StyledMapType(
 var office1 = {lat: 39.635303, lng:  22.418266};
   // The map, centered at Uluru
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 16, center: office, mapTypeControlOptions: {mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
-                    'styled_map']}});
+      document.getElementById('map'), {zoom: 16, center: office,mapTypeControl: false, mapTypeControlOptions: {mapTypeIds: ['styled_map']}});
   // The marker, positioned at Uluru
   var marker = new google.maps.Marker({position: office, map: map,  icon:'http://www.vogias.com/BlogPostAssets/images/%CE%95%CE%9D%CE%A4pin2.png'});
 //var marker1 = new google.maps.Marker({position: office1, map: map, label: 'ΒΟΓΙΑΣ ΙΩΑΝΝΗΣ'});
 	map.mapTypes.set('styled_map', styledMapType);
         map.setMapTypeId('styled_map');
-	map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push
+	map.controls[google.maps.ControlPosition.LEFT_TOP].push
 (document.getElementById('legend'));
 }
 		
