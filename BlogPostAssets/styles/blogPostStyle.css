@@ -170,7 +170,7 @@ footer {
 	text-decoration: none;
 }
 #map {
-height: 400px;  /* The height is 400 pixels */
+height: 555px;  /* The height is 400 pixels */
 width: 100%;  /* The width is the width of the web page */
 }
   #legend {
@@ -180,12 +180,6 @@ width: 100%;  /* The width is the width of the web page */
     margin: 10px;
     border: 1px solid #DDD;
   }
-legend h4 {
-	/* Footer article titles */
-	text-align: center;
-	font-weight: 1000;
-	font-size: 240px;
-}
 
 /* narrow laptop view */
 @media screen and (max-width : 1308px ){
