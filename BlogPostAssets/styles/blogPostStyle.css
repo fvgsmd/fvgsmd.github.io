@@ -169,6 +169,23 @@ footer {
 	color: rgba(146,146,146,1.00);
 	text-decoration: none;
 }
+#map {
+height: 400px;  /* The height is 400 pixels */
+width: 100%;  /* The width is the width of the web page */
+}
+  #legend {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #DDD;
+  }
+legend h4 {
+	/* Footer article titles */
+	text-align: center;
+	font-weight: 1000;
+	font-size: 240px;
+}
 
 /* narrow laptop view */
 @media screen and (max-width : 1308px ){
