@@ -190,6 +190,32 @@ width: 100%;  /* The width is the width of the web page */
 	margin-left:1%;
 	}
 }
+/* very wide view */
+@media screen and (min-width : 1650px ){
+#mainwrapper #content #sidebar {
+	/* Sidebar*/
+	width: 29%;
+	padding-left: 1%;
+	padding-right: 1%;
+	float: left;
+	background-color: rgba(246,246,246,1.00);
+	margin-top: 135px;
+	padding-top: 20px;
+}
+}
+/* wide view */
+@media screen and (min-width : 1350px) and (max-width : 1650px ){
+#mainwrapper #content #sidebar {
+	/* Sidebar*/
+	width: 29%;
+	padding-left: 1%;
+	padding-right: 1%;
+	float: left;
+	background-color: rgba(246,246,246,1.00);
+	margin-top: 90px;
+	padding-top: 20px;
+}
+}
 /* Tablet view */
 @media screen and (max-width : 1084px ){
 .notOnDesktop {
