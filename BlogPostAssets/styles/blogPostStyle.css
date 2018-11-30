@@ -35,6 +35,7 @@ header nav a {
 #content #mainContent h1, #content #mainContent h2 {
 	/* Styling for main headings */
 	color: rgba(146,146,146,1.00);
+	display: none;
 }
 #content #mainContent h3 {
 	/*Captions ot Taglines */
