@@ -26,11 +26,16 @@
 	padding-right: 1%;
 	width: 25%;
 	float: right;
-	color: rgba(146,146,25,1.00);
+	color: rgba(146,146,146,1.00);
 }
 header nav a {
 	/* Links in header */
 	padding-right: 20%;
+	color: rgba(20,61,141,1.00);
+}
+header nav a:link {
+	/* Links in header */
+	color: rgba(20,61,141,1.00);
 }
 #content #mainContent h1, #content #mainContent h2 {
 	/* Styling for main headings */
