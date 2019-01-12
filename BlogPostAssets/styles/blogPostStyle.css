@@ -11,26 +11,26 @@
 }
 #mainwrapper header #logo {
 	/* Company Logo text */
-	width: 90%;
+	width: 70%;
 	float: left;
-	padding-left: 0.5%;
+	padding-left: 1%;
 	padding-top: 4px;
 	padding-bottom: 4px;
 	color: rgba(60,60,60,1.00);
 }
-#mainwrapper header nav {
+#mainwrapper header #nav {
 	/*Nav bar containing links in header */
 	text-align: right;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	padding-right: 2%;
-	width: 5%;
-	float: left;
-	color: rgba(146,146,146,1.00);
+	padding-top: 8px;
+	padding-bottom: 4px;
+	padding-right: 1%;
+	width: 25%;
+	float: right;
+	color: rgba(146,146,25,1.00);
 }
 header nav a {
 	/* Links in header */
-	padding-right: 2%;
+	padding-right: 20%;
 }
 #content #mainContent h1, #content #mainContent h2 {
 	/* Styling for main headings */
@@ -289,11 +289,12 @@ footer {
 	width: 96%;
 	margin-left: 2%;
 }
-#mainwrapper header nav { 
+#mainwrapper header #nav { 
 	/*navigation links in header */
 	text-align: center;
 	background-color: rgba(255,255,255,1.00);
 	width: 98%;
+	display: none;;
 }
 #content #sidebar #adimage {
 	/* Container for image in sidebar */
